@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background-image: url("../images/wood.jpg");
+   background-size: cover;
+}
+
+.contenitore{
+  width: 1000px;
+  margin: auto;
+}
+
+header{
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.logoimmagine{
+  vertical-align: middle;
+  height: 90px;
+  line-height: 90px;
+}
+
+
+.logotype{
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  overflow: auto;
+}
+
+nav{
+padding-top: 25px;
+padding-bottom: 25px;
+border-bottom: 2px solid white;
+}
+
+.primariganav{
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.stella1::after{
+  content: "\02605";
+}
+
+.stella1:hover{
+  color: yellow;
+}
+
+.frasecontatore{
+  color: white;
+}
+
+.contatore{
+  border-radius: 50%;
+  background-color: orange;
+  padding: 10px;
+}
+
+main{
+  padding: 25px;
+  border-bottom: 2px solid white;
+}
+
+.riga{
+  background-color: #d2d2d2;
+  border-bottom: 1px black solid;
+  padding: 2px 0px;
+}
+
+.rigabianca{
+  background-color: #ffffff;
+  border-bottom: 1px black solid;
+    padding: 2px 0px;
+}
+
+.oggettomail{
+  font-weight: bold;
+}
+
+.testomail{
+  color: #9c9c9c;
+}
+
+footer{
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.gmailfooter{
+  font-weight: bold;
+}
